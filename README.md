@@ -14,3 +14,6 @@
 
 ##关联远程库
 > git remote add origin https://github.com/cosmosev/learnGit
+
+##本地内容推动到远程库
+> git push -u(首次) origin master
