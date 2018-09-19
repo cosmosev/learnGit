@@ -11,3 +11,6 @@
 
 ##把暂存区文件提交到当前分支
 > git commit -m "message"
+
+##关联远程库
+> git remote add origin https://github.com/cosmosev/learnGit
