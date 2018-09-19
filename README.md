@@ -21,3 +21,6 @@
 ### 本地内容推动到远程库
 > git push (-u) origin master
   * 首次推送master分支时，加-u
+
+### 查看commit历史记录
+> git log (--pretty=oneline)
