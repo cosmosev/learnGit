@@ -54,7 +54,7 @@
 > ###### git diff HEAD -- README.md(file)
 
 #### 4. 查看commit历史记录
-> ###### git log (--pretty=oneline)
+> ###### git log (--pretty=oneline) (--abbrev-commit)
 > *单行显示加  --pretty=oneline*
 >
 > *可查看合并分支情况*
@@ -102,12 +102,45 @@
 > ###### git stash apply
 > *还需要删除工作现场*
 > ###### git stash pop
-> *恢复同时已经删除stash内容*
+> *恢复同时删除stash内容*
 
 #### 4. 删除工作现场
 > ###### git stash drop
 
 -----------------------------------------------
+
+### 标签管理
+
+#### 1. 创建标签
+> ###### git tag v1.0(版本号) (commit id)
+> *commit id 选填，不填表示最近一次commit*
+
+#### 2. 查看标签
+> ###### git tag
+
+#### 3. 查看标签信息
+> ###### git show v0.9(版本号)
+
+#### 4. 创建带有说明的标签
+> ###### git tag -a v0.1 -m "version 0.1 released" (commit id)
+> *-a 指定标签名*
+>
+> *-m 指定说明文字*
+
+#### 5. 删除标签
+> ###### git tag -d v1.0(版本号)
+
+#### 6. 推送标签到远程
+> ###### git push origin v1.0(版本号)/--tag(全部)
+
+#### 7. 删除远程标签
+> ###### git push origin:refs/tags/v1.0(版本号)
+> *先本地删除*
+
+-------------------------------------------------
+
+
+
 
 
 
