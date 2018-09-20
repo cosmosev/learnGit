@@ -25,13 +25,13 @@
 #### 7. 回退版本
 > ###### git reset --hard HEAD^(commit id)
 > *HEAD^(上一个版本) ------  HEAD^(上上个版本)  ------  HEAD~100(往上100个版本)*
-
+>
 > *可通过git log, git reflog 获取commit id*
 
 #### 8. 撤销修改
 > ###### git checkout -- README.md(file)
 > *回到最近一次git commit或git add时的状态*
-
+>
 > *本质是用版本库里的版本替换工作区的版本*
 
 #### 9. 删除文件
@@ -56,7 +56,7 @@
 #### 4. 查看commit历史记录
 > ###### git log (--pretty=oneline)
 > *单行显示加  --pretty=oneline*
-
+>
 > *可查看合并分支情况*
 
 #### 5. 命令历史操作查询
