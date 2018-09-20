@@ -1,7 +1,7 @@
 # learnGit
 
 ### 基本操作
-* #### 从远程库克隆代码
+#### 1. 从远程库克隆代码
 > ###### git clone https://github.com/cosmosev/learnGit
 * #### 初始化
 > ###### git init
